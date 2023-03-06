@@ -1,7 +1,7 @@
 //create a mongodb client
 var MongoClient = require("mongodb").MongoClient;
 //create a connection for mongodb
-var connection_string = "mongodb://localhost:27017/";
+var connection_string = "mongodb://127.0.0.1:27017/";
 //establish connection with mongodb
 MongoClient.connect(connection_string,function(err,client){
 
